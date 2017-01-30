@@ -15,6 +15,7 @@ public class AddProfile {
 	
 	public static void main(String[] args) throws ClientProtocolException, IOException {
 		
+		System.out.println("Hii every one this is git repo session");
 		HttpPost httpPost1 = new HttpPost("http://221.226.2.232:17200/EPG/JSON/AddProfile");	
 		HttpResponse httpResponse2 = null;
 		DefaultHttpClient httpClient2 = new DefaultHttpClient();
